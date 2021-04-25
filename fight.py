@@ -6,15 +6,12 @@ def main():
   while hero_life >= 0 and enemy_life >= 0:
     prompt = input("How would you like to act: (attack, defend, heal)")
     if prompt == 'attack':
-      attack(hero_life, enemy_life)
       hero_life, enemy_life = attack(hero_life, enemy_life)
       
     elif prompt == "defend":
-      defense(hero_life, enemy_life)
       hero_life, enemy_life = defense(hero_life, enemy_life)
 
     elif prompt == "heal":
-      heal(hero_life, enemy_life)
       hero_life, enemy_life = defense(hero_life, enemy_life)
       
     else:
