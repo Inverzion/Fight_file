@@ -24,7 +24,6 @@ def main():
       else:
         print("Hero Won")
         break
-    print(hero_life, enemy_life)
 
 def attack(enemy_life, hero_life):
   enemy_attack = random.randint(0,100)
