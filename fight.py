@@ -12,7 +12,7 @@ def main():
       hero_life, enemy_life = defense(hero_life, enemy_life)
 
     elif prompt == "heal":
-      hero_life, enemy_life = defense(hero_life, enemy_life)
+      hero_life, enemy_life = heal(hero_life, enemy_life)
       
     else:
       print("Please input a valid response")
